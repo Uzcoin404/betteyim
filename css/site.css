@@ -16,7 +16,6 @@ a:focus-visible {
 }
 
 .navbar-brand img {
-    height: 70px;
     position: relative;
     top: -5px;
 }
@@ -158,6 +157,7 @@ a:focus-visible {
 
 .relation-button img {
     max-width: 100%;
+    pointer-events: none;
 }
 
 .relation-button {
@@ -204,7 +204,7 @@ a:focus-visible {
     background-size: cover;
     position: relative;
     margin-top: -40px;
-    border-bottom: 7px solid #FFB800;
+    border-bottom: 7px solid #227c5e;
     z-index: 5;
 }
 
