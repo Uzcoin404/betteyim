@@ -179,9 +179,11 @@ a:focus-visible {
     display: flex;
 }
 
+.section.slots a {
+    transition: .2s;
+}
 .section.slots a:hover {
     transform: scale(1.2);
-    transition: 0.2s;
 }
 
 .section-cards {
